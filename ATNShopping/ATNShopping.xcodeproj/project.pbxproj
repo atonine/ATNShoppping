@@ -1,0 +1,1057 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B30FE181EE18FB5003E9FE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30FE171EE18FB5003E9FE3 /* main.m */; };
+		2B30FE1B1EE18FB5003E9FE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30FE1A1EE18FB5003E9FE3 /* AppDelegate.m */; };
+		2B30FE1E1EE18FB5003E9FE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30FE1D1EE18FB5003E9FE3 /* ViewController.m */; };
+		2B30FE211EE18FB5003E9FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B30FE1F1EE18FB5003E9FE3 /* Main.storyboard */; };
+		2B30FE231EE18FB5003E9FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B30FE221EE18FB5003E9FE3 /* Assets.xcassets */; };
+		2B30FE261EE18FB5003E9FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B30FE241EE18FB5003E9FE3 /* LaunchScreen.storyboard */; };
+		2B30FE311EE18FB5003E9FE3 /* ATNShoppingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30FE301EE18FB5003E9FE3 /* ATNShoppingTests.m */; };
+		2B30FE3C1EE18FB5003E9FE3 /* ATNShoppingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30FE3B1EE18FB5003E9FE3 /* ATNShoppingUITests.m */; };
+		2B30FE651EE19091003E9FE3 /* ATNCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30FE601EE19091003E9FE3 /* ATNCycleView.m */; };
+		2B30FE661EE19091003E9FE3 /* ATNCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B30FE611EE19091003E9FE3 /* ATNCycleView.xib */; };
+		2B30FE671EE19091003E9FE3 /* ATNCycleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B30FE631EE19091003E9FE3 /* ATNCycleViewCell.m */; };
+		2B30FE681EE19091003E9FE3 /* ATNCycleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B30FE641EE19091003E9FE3 /* ATNCycleViewCell.xib */; };
+		2B3CD2221EE229C200410215 /* ATNHomeConreoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3CD2211EE229C200410215 /* ATNHomeConreoller.m */; };
+		2B3CD2251EE2FE6B00410215 /* ATNGoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3CD2241EE2FE6B00410215 /* ATNGoodModel.m */; };
+		2B3CD2281EE2FEE100410215 /* ATNComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3CD2271EE2FEE100410215 /* ATNComment.m */; };
+		2B3CD22B1EE2FEF800410215 /* ATNUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3CD22A1EE2FEF800410215 /* ATNUser.m */; };
+		2B9AD2B41EE8F75200D8BF55 /* ATNVLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9AD2B01EE8F75200D8BF55 /* ATNVLoginController.m */; };
+		2B9AD2B51EE8F75200D8BF55 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9AD2B31EE8F75200D8BF55 /* Login.storyboard */; };
+		2B9AD2B81EE8F87B00D8BF55 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9AD2B71EE8F87B00D8BF55 /* RegisterController.m */; };
+		2B9AD2BA1EE8F92B00D8BF55 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9AD2B91EE8F92B00D8BF55 /* Register.storyboard */; };
+		2B9AD2C71EE96DEA00D8BF55 /* ATNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9AD2C61EE96DEA00D8BF55 /* ATNTabBarController.m */; };
+		2B9AD2CE1EE9903600D8BF55 /* ATNUploadListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9AD2CD1EE9903600D8BF55 /* ATNUploadListController.m */; };
+		2B9AD2D01EE9904A00D8BF55 /* GoodList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9AD2CF1EE9904A00D8BF55 /* GoodList.storyboard */; };
+		2B9AD2D31EE99C9800D8BF55 /* ATNShoppingCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9AD2D21EE99C9800D8BF55 /* ATNShoppingCartController.m */; };
+		2B9CBC2C1EE77FC2000D6507 /* ATNUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CBC2A1EE77FC2000D6507 /* ATNUserCell.m */; };
+		2B9CBC2D1EE77FC2000D6507 /* ATNUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B9CBC2B1EE77FC2000D6507 /* ATNUserCell.xib */; };
+		2B9CBC301EE78C7F000D6507 /* ATNUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CBC2F1EE78C7F000D6507 /* ATNUserController.m */; };
+		2B9CBC321EE7C2F0000D6507 /* currentUser.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B9CBC311EE7C2F0000D6507 /* currentUser.plist */; };
+		2B9CBC341EE7E075000D6507 /* IMG_2407.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2B9CBC331EE7E075000D6507 /* IMG_2407.JPG */; };
+		2B9CBC6C1EE81DFB000D6507 /* NSBundle+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CBC5F1EE81DFB000D6507 /* NSBundle+PYSearchExtension.m */; };
+		2B9CBC6D1EE81DFB000D6507 /* PYSearch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B9CBC601EE81DFB000D6507 /* PYSearch.bundle */; };
+		2B9CBC6E1EE81DFB000D6507 /* PYSearchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CBC631EE81DFB000D6507 /* PYSearchConst.m */; };
+		2B9CBC6F1EE81DFB000D6507 /* PYSearchSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CBC651EE81DFB000D6507 /* PYSearchSuggestionViewController.m */; };
+		2B9CBC701EE81DFB000D6507 /* PYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CBC671EE81DFB000D6507 /* PYSearchViewController.m */; };
+		2B9CBC711EE81DFB000D6507 /* UIColor+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CBC691EE81DFB000D6507 /* UIColor+PYSearchExtension.m */; };
+		2B9CBC721EE81DFB000D6507 /* UIView+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CBC6B1EE81DFB000D6507 /* UIView+PYSearchExtension.m */; };
+		2B9CBC781EE826A1000D6507 /* IMQuickSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CBC751EE826A1000D6507 /* IMQuickSearch.m */; };
+		2B9CBC791EE826A1000D6507 /* IMQuickSearchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CBC771EE826A1000D6507 /* IMQuickSearchFilter.m */; };
+		2B9CBC821EE82E4B000D6507 /* GoodList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B9CBC811EE82E4B000D6507 /* GoodList.plist */; };
+		2B9CBC891EE8432E000D6507 /* ATNGoodDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9CBC881EE8432E000D6507 /* ATNGoodDetailController.m */; };
+		2B9CBC8B1EE843A4000D6507 /* GoodDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9CBC8A1EE843A4000D6507 /* GoodDetail.storyboard */; };
+		2BBD28881EF62EF0007E47BA /* goodModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BBD28871EF62EF0007E47BA /* goodModel.plist */; };
+		2BDB92261EF11B7000AF7B63 /* shoppingCart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDB92251EF11B6F00AF7B63 /* shoppingCart.storyboard */; };
+		2BEEF3161EF56D5500395168 /* ATNGoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEEF3141EF56D5500395168 /* ATNGoodCell.m */; };
+		2BEEF3171EF56D5500395168 /* ATNGoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BEEF3151EF56D5500395168 /* ATNGoodCell.xib */; };
+		2BEEF31A1EF5729300395168 /* ATNUpoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEEF3191EF5729300395168 /* ATNUpoadViewController.m */; };
+		2BEEF31C1EF572B500395168 /* upload.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BEEF31B1EF572B500395168 /* upload.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B30FE2D1EE18FB5003E9FE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B30FE0B1EE18FB5003E9FE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B30FE121EE18FB5003E9FE3;
+			remoteInfo = ATNShopping;
+		};
+		2B30FE381EE18FB5003E9FE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B30FE0B1EE18FB5003E9FE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B30FE121EE18FB5003E9FE3;
+			remoteInfo = ATNShopping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B48219B57298F812A4B796 /* libPods-ATNShopping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATNShopping.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B30FE131EE18FB5003E9FE3 /* ATNShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATNShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B30FE171EE18FB5003E9FE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B30FE191EE18FB5003E9FE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B30FE1A1EE18FB5003E9FE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B30FE1C1EE18FB5003E9FE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B30FE1D1EE18FB5003E9FE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B30FE201EE18FB5003E9FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B30FE221EE18FB5003E9FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B30FE251EE18FB5003E9FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B30FE271EE18FB5003E9FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B30FE2C1EE18FB5003E9FE3 /* ATNShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATNShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B30FE301EE18FB5003E9FE3 /* ATNShoppingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNShoppingTests.m; sourceTree = "<group>"; };
+		2B30FE321EE18FB5003E9FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B30FE371EE18FB5003E9FE3 /* ATNShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATNShoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B30FE3B1EE18FB5003E9FE3 /* ATNShoppingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNShoppingUITests.m; sourceTree = "<group>"; };
+		2B30FE3D1EE18FB5003E9FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B30FE5F1EE19091003E9FE3 /* ATNCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNCycleView.h; sourceTree = "<group>"; };
+		2B30FE601EE19091003E9FE3 /* ATNCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNCycleView.m; sourceTree = "<group>"; };
+		2B30FE611EE19091003E9FE3 /* ATNCycleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATNCycleView.xib; sourceTree = "<group>"; };
+		2B30FE621EE19091003E9FE3 /* ATNCycleViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNCycleViewCell.h; sourceTree = "<group>"; };
+		2B30FE631EE19091003E9FE3 /* ATNCycleViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNCycleViewCell.m; sourceTree = "<group>"; };
+		2B30FE641EE19091003E9FE3 /* ATNCycleViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATNCycleViewCell.xib; sourceTree = "<group>"; };
+		2B3CD2201EE229C200410215 /* ATNHomeConreoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNHomeConreoller.h; sourceTree = "<group>"; };
+		2B3CD2211EE229C200410215 /* ATNHomeConreoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNHomeConreoller.m; sourceTree = "<group>"; };
+		2B3CD2231EE2FE6B00410215 /* ATNGoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNGoodModel.h; sourceTree = "<group>"; };
+		2B3CD2241EE2FE6B00410215 /* ATNGoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNGoodModel.m; sourceTree = "<group>"; };
+		2B3CD2261EE2FEE100410215 /* ATNComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNComment.h; sourceTree = "<group>"; };
+		2B3CD2271EE2FEE100410215 /* ATNComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNComment.m; sourceTree = "<group>"; };
+		2B3CD2291EE2FEF800410215 /* ATNUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNUser.h; sourceTree = "<group>"; };
+		2B3CD22A1EE2FEF800410215 /* ATNUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNUser.m; sourceTree = "<group>"; };
+		2B9AD2AF1EE8F75200D8BF55 /* ATNVLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNVLoginController.h; sourceTree = "<group>"; };
+		2B9AD2B01EE8F75200D8BF55 /* ATNVLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNVLoginController.m; sourceTree = "<group>"; };
+		2B9AD2B31EE8F75200D8BF55 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		2B9AD2B61EE8F87B00D8BF55 /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		2B9AD2B71EE8F87B00D8BF55 /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
+		2B9AD2B91EE8F92B00D8BF55 /* Register.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		2B9AD2C51EE96DEA00D8BF55 /* ATNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNTabBarController.h; sourceTree = "<group>"; };
+		2B9AD2C61EE96DEA00D8BF55 /* ATNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNTabBarController.m; sourceTree = "<group>"; };
+		2B9AD2CC1EE9903600D8BF55 /* ATNUploadListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNUploadListController.h; sourceTree = "<group>"; };
+		2B9AD2CD1EE9903600D8BF55 /* ATNUploadListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNUploadListController.m; sourceTree = "<group>"; };
+		2B9AD2CF1EE9904A00D8BF55 /* GoodList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GoodList.storyboard; sourceTree = "<group>"; };
+		2B9AD2D11EE99C9800D8BF55 /* ATNShoppingCartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNShoppingCartController.h; sourceTree = "<group>"; };
+		2B9AD2D21EE99C9800D8BF55 /* ATNShoppingCartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNShoppingCartController.m; sourceTree = "<group>"; };
+		2B9CBC291EE77FC2000D6507 /* ATNUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNUserCell.h; sourceTree = "<group>"; };
+		2B9CBC2A1EE77FC2000D6507 /* ATNUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNUserCell.m; sourceTree = "<group>"; };
+		2B9CBC2B1EE77FC2000D6507 /* ATNUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATNUserCell.xib; sourceTree = "<group>"; };
+		2B9CBC2E1EE78C7F000D6507 /* ATNUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNUserController.h; sourceTree = "<group>"; };
+		2B9CBC2F1EE78C7F000D6507 /* ATNUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNUserController.m; sourceTree = "<group>"; };
+		2B9CBC311EE7C2F0000D6507 /* currentUser.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = currentUser.plist; sourceTree = "<group>"; };
+		2B9CBC331EE7E075000D6507 /* IMG_2407.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2407.JPG; sourceTree = "<group>"; };
+		2B9CBC5E1EE81DFB000D6507 /* NSBundle+PYSearchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+PYSearchExtension.h"; sourceTree = "<group>"; };
+		2B9CBC5F1EE81DFB000D6507 /* NSBundle+PYSearchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+PYSearchExtension.m"; sourceTree = "<group>"; };
+		2B9CBC601EE81DFB000D6507 /* PYSearch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PYSearch.bundle; sourceTree = "<group>"; };
+		2B9CBC611EE81DFB000D6507 /* PYSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearch.h; sourceTree = "<group>"; };
+		2B9CBC621EE81DFB000D6507 /* PYSearchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchConst.h; sourceTree = "<group>"; };
+		2B9CBC631EE81DFB000D6507 /* PYSearchConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchConst.m; sourceTree = "<group>"; };
+		2B9CBC641EE81DFB000D6507 /* PYSearchSuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchSuggestionViewController.h; sourceTree = "<group>"; };
+		2B9CBC651EE81DFB000D6507 /* PYSearchSuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchSuggestionViewController.m; sourceTree = "<group>"; };
+		2B9CBC661EE81DFB000D6507 /* PYSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchViewController.h; sourceTree = "<group>"; };
+		2B9CBC671EE81DFB000D6507 /* PYSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchViewController.m; sourceTree = "<group>"; };
+		2B9CBC681EE81DFB000D6507 /* UIColor+PYSearchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PYSearchExtension.h"; sourceTree = "<group>"; };
+		2B9CBC691EE81DFB000D6507 /* UIColor+PYSearchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PYSearchExtension.m"; sourceTree = "<group>"; };
+		2B9CBC6A1EE81DFB000D6507 /* UIView+PYSearchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PYSearchExtension.h"; sourceTree = "<group>"; };
+		2B9CBC6B1EE81DFB000D6507 /* UIView+PYSearchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYSearchExtension.m"; sourceTree = "<group>"; };
+		2B9CBC741EE826A1000D6507 /* IMQuickSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMQuickSearch.h; sourceTree = "<group>"; };
+		2B9CBC751EE826A1000D6507 /* IMQuickSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMQuickSearch.m; sourceTree = "<group>"; };
+		2B9CBC761EE826A1000D6507 /* IMQuickSearchFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMQuickSearchFilter.h; sourceTree = "<group>"; };
+		2B9CBC771EE826A1000D6507 /* IMQuickSearchFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMQuickSearchFilter.m; sourceTree = "<group>"; };
+		2B9CBC811EE82E4B000D6507 /* GoodList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GoodList.plist; sourceTree = "<group>"; };
+		2B9CBC871EE8432E000D6507 /* ATNGoodDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNGoodDetailController.h; sourceTree = "<group>"; };
+		2B9CBC881EE8432E000D6507 /* ATNGoodDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNGoodDetailController.m; sourceTree = "<group>"; };
+		2B9CBC8A1EE843A4000D6507 /* GoodDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GoodDetail.storyboard; sourceTree = "<group>"; };
+		2BBD28871EF62EF0007E47BA /* goodModel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = goodModel.plist; sourceTree = "<group>"; };
+		2BDB92251EF11B6F00AF7B63 /* shoppingCart.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = shoppingCart.storyboard; sourceTree = "<group>"; };
+		2BEEF3131EF56D5500395168 /* ATNGoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNGoodCell.h; sourceTree = "<group>"; };
+		2BEEF3141EF56D5500395168 /* ATNGoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNGoodCell.m; sourceTree = "<group>"; };
+		2BEEF3151EF56D5500395168 /* ATNGoodCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATNGoodCell.xib; sourceTree = "<group>"; };
+		2BEEF3181EF5729200395168 /* ATNUpoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNUpoadViewController.h; sourceTree = "<group>"; };
+		2BEEF3191EF5729300395168 /* ATNUpoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNUpoadViewController.m; sourceTree = "<group>"; };
+		2BEEF31B1EF572B500395168 /* upload.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = upload.storyboard; sourceTree = "<group>"; };
+		4DD9E07907EC1E6BC930CCF6 /* Pods-ATNShopping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATNShopping.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATNShopping/Pods-ATNShopping.release.xcconfig"; sourceTree = "<group>"; };
+		DF9B6951BC028149EF368AEA /* Pods-ATNShopping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATNShopping.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATNShopping/Pods-ATNShopping.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B30FE101EE18FB5003E9FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30FE291EE18FB5003E9FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30FE341EE18FB5003E9FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DA82338760BD37EFC92769B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04B48219B57298F812A4B796 /* libPods-ATNShopping.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B30FE0A1EE18FB5003E9FE3 = {
+			isa = PBXGroup;
+			children = (
+				2B30FE151EE18FB5003E9FE3 /* ATNShopping */,
+				2B30FE2F1EE18FB5003E9FE3 /* ATNShoppingTests */,
+				2B30FE3A1EE18FB5003E9FE3 /* ATNShoppingUITests */,
+				2B30FE141EE18FB5003E9FE3 /* Products */,
+				3C16E2392025E922D5BAD8BD /* Pods */,
+				1DA82338760BD37EFC92769B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B30FE141EE18FB5003E9FE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B30FE131EE18FB5003E9FE3 /* ATNShopping.app */,
+				2B30FE2C1EE18FB5003E9FE3 /* ATNShoppingTests.xctest */,
+				2B30FE371EE18FB5003E9FE3 /* ATNShoppingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B30FE151EE18FB5003E9FE3 /* ATNShopping */ = {
+			isa = PBXGroup;
+			children = (
+				2B9AD2AD1EE8F75200D8BF55 /* LoginAndRegist */,
+				2B9CBC831EE842FD000D6507 /* Good */,
+				2B9CBC461EE81DD1000D6507 /* Frameworks */,
+				2B30FE491EE1902C003E9FE3 /* Main */,
+				2B30FE5B1EE19091003E9FE3 /* Home */,
+				2B9CBC251EE77F3D000D6507 /* Mine */,
+				2B9AD2BB1EE92F0900D8BF55 /* Extension */,
+				2B9AD2C81EE98EDF00D8BF55 /* Shopping */,
+				2B30FE191EE18FB5003E9FE3 /* AppDelegate.h */,
+				2B30FE1A1EE18FB5003E9FE3 /* AppDelegate.m */,
+				2B30FE1C1EE18FB5003E9FE3 /* ViewController.h */,
+				2B30FE1D1EE18FB5003E9FE3 /* ViewController.m */,
+				2B30FE1F1EE18FB5003E9FE3 /* Main.storyboard */,
+				2B30FE221EE18FB5003E9FE3 /* Assets.xcassets */,
+				2B9CBC331EE7E075000D6507 /* IMG_2407.JPG */,
+				2B30FE241EE18FB5003E9FE3 /* LaunchScreen.storyboard */,
+				2B30FE271EE18FB5003E9FE3 /* Info.plist */,
+				2B30FE161EE18FB5003E9FE3 /* Supporting Files */,
+				2B9CBC311EE7C2F0000D6507 /* currentUser.plist */,
+				2B9CBC811EE82E4B000D6507 /* GoodList.plist */,
+			);
+			path = ATNShopping;
+			sourceTree = "<group>";
+		};
+		2B30FE161EE18FB5003E9FE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B30FE171EE18FB5003E9FE3 /* main.m */,
+				2BBD28871EF62EF0007E47BA /* goodModel.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B30FE2F1EE18FB5003E9FE3 /* ATNShoppingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B30FE301EE18FB5003E9FE3 /* ATNShoppingTests.m */,
+				2B30FE321EE18FB5003E9FE3 /* Info.plist */,
+			);
+			path = ATNShoppingTests;
+			sourceTree = "<group>";
+		};
+		2B30FE3A1EE18FB5003E9FE3 /* ATNShoppingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B30FE3B1EE18FB5003E9FE3 /* ATNShoppingUITests.m */,
+				2B30FE3D1EE18FB5003E9FE3 /* Info.plist */,
+			);
+			path = ATNShoppingUITests;
+			sourceTree = "<group>";
+		};
+		2B30FE491EE1902C003E9FE3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2B30FE4A1EE1902C003E9FE3 /* Controller */,
+				2B30FE4B1EE1902C003E9FE3 /* Model */,
+				2B30FE4C1EE1902C003E9FE3 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2B30FE4A1EE1902C003E9FE3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B9AD2C51EE96DEA00D8BF55 /* ATNTabBarController.h */,
+				2B9AD2C61EE96DEA00D8BF55 /* ATNTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B30FE4B1EE1902C003E9FE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B3CD2231EE2FE6B00410215 /* ATNGoodModel.h */,
+				2B3CD2241EE2FE6B00410215 /* ATNGoodModel.m */,
+				2B3CD2261EE2FEE100410215 /* ATNComment.h */,
+				2B3CD2271EE2FEE100410215 /* ATNComment.m */,
+				2B3CD2291EE2FEF800410215 /* ATNUser.h */,
+				2B3CD22A1EE2FEF800410215 /* ATNUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B30FE4C1EE1902C003E9FE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B30FE5B1EE19091003E9FE3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2B30FE5C1EE19091003E9FE3 /* Controller */,
+				2B30FE5D1EE19091003E9FE3 /* Model */,
+				2B30FE5E1EE19091003E9FE3 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2B30FE5C1EE19091003E9FE3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B3CD2201EE229C200410215 /* ATNHomeConreoller.h */,
+				2B3CD2211EE229C200410215 /* ATNHomeConreoller.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B30FE5D1EE19091003E9FE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B30FE5E1EE19091003E9FE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B30FE5F1EE19091003E9FE3 /* ATNCycleView.h */,
+				2B30FE601EE19091003E9FE3 /* ATNCycleView.m */,
+				2B30FE611EE19091003E9FE3 /* ATNCycleView.xib */,
+				2B30FE621EE19091003E9FE3 /* ATNCycleViewCell.h */,
+				2B30FE631EE19091003E9FE3 /* ATNCycleViewCell.m */,
+				2B30FE641EE19091003E9FE3 /* ATNCycleViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B9AD2AD1EE8F75200D8BF55 /* LoginAndRegist */ = {
+			isa = PBXGroup;
+			children = (
+				2B9AD2AE1EE8F75200D8BF55 /* Controller */,
+				2B9AD2B11EE8F75200D8BF55 /* Model */,
+				2B9AD2B21EE8F75200D8BF55 /* View */,
+			);
+			path = LoginAndRegist;
+			sourceTree = "<group>";
+		};
+		2B9AD2AE1EE8F75200D8BF55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B9AD2AF1EE8F75200D8BF55 /* ATNVLoginController.h */,
+				2B9AD2B01EE8F75200D8BF55 /* ATNVLoginController.m */,
+				2B9AD2B61EE8F87B00D8BF55 /* RegisterController.h */,
+				2B9AD2B71EE8F87B00D8BF55 /* RegisterController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B9AD2B11EE8F75200D8BF55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B9AD2B21EE8F75200D8BF55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B9AD2B31EE8F75200D8BF55 /* Login.storyboard */,
+				2B9AD2B91EE8F92B00D8BF55 /* Register.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B9AD2BB1EE92F0900D8BF55 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2B9AD2BC1EE92F0900D8BF55 /* Tools */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2B9AD2BC1EE92F0900D8BF55 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2B9AD2C81EE98EDF00D8BF55 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				2B9AD2C91EE98EDF00D8BF55 /* Controller */,
+				2B9AD2CA1EE98EDF00D8BF55 /* Model */,
+				2B9AD2CB1EE98EDF00D8BF55 /* View */,
+			);
+			path = Shopping;
+			sourceTree = "<group>";
+		};
+		2B9AD2C91EE98EDF00D8BF55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B9AD2CC1EE9903600D8BF55 /* ATNUploadListController.h */,
+				2B9AD2CD1EE9903600D8BF55 /* ATNUploadListController.m */,
+				2B9AD2D11EE99C9800D8BF55 /* ATNShoppingCartController.h */,
+				2B9AD2D21EE99C9800D8BF55 /* ATNShoppingCartController.m */,
+				2BEEF3181EF5729200395168 /* ATNUpoadViewController.h */,
+				2BEEF3191EF5729300395168 /* ATNUpoadViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B9AD2CA1EE98EDF00D8BF55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B9AD2CB1EE98EDF00D8BF55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B9AD2CF1EE9904A00D8BF55 /* GoodList.storyboard */,
+				2BDB92251EF11B6F00AF7B63 /* shoppingCart.storyboard */,
+				2BEEF31B1EF572B500395168 /* upload.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B9CBC251EE77F3D000D6507 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2B9CBC261EE77F3D000D6507 /* Controller */,
+				2B9CBC271EE77F3D000D6507 /* Model */,
+				2B9CBC281EE77F3D000D6507 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		2B9CBC261EE77F3D000D6507 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B9CBC2E1EE78C7F000D6507 /* ATNUserController.h */,
+				2B9CBC2F1EE78C7F000D6507 /* ATNUserController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B9CBC271EE77F3D000D6507 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B9CBC281EE77F3D000D6507 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B9CBC291EE77FC2000D6507 /* ATNUserCell.h */,
+				2B9CBC2A1EE77FC2000D6507 /* ATNUserCell.m */,
+				2B9CBC2B1EE77FC2000D6507 /* ATNUserCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B9CBC461EE81DD1000D6507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B9CBC731EE826A1000D6507 /* IMSearch */,
+				2B9CBC5D1EE81DFB000D6507 /* PYSearch */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B9CBC5D1EE81DFB000D6507 /* PYSearch */ = {
+			isa = PBXGroup;
+			children = (
+				2B9CBC5E1EE81DFB000D6507 /* NSBundle+PYSearchExtension.h */,
+				2B9CBC5F1EE81DFB000D6507 /* NSBundle+PYSearchExtension.m */,
+				2B9CBC601EE81DFB000D6507 /* PYSearch.bundle */,
+				2B9CBC611EE81DFB000D6507 /* PYSearch.h */,
+				2B9CBC621EE81DFB000D6507 /* PYSearchConst.h */,
+				2B9CBC631EE81DFB000D6507 /* PYSearchConst.m */,
+				2B9CBC641EE81DFB000D6507 /* PYSearchSuggestionViewController.h */,
+				2B9CBC651EE81DFB000D6507 /* PYSearchSuggestionViewController.m */,
+				2B9CBC661EE81DFB000D6507 /* PYSearchViewController.h */,
+				2B9CBC671EE81DFB000D6507 /* PYSearchViewController.m */,
+				2B9CBC681EE81DFB000D6507 /* UIColor+PYSearchExtension.h */,
+				2B9CBC691EE81DFB000D6507 /* UIColor+PYSearchExtension.m */,
+				2B9CBC6A1EE81DFB000D6507 /* UIView+PYSearchExtension.h */,
+				2B9CBC6B1EE81DFB000D6507 /* UIView+PYSearchExtension.m */,
+			);
+			path = PYSearch;
+			sourceTree = "<group>";
+		};
+		2B9CBC731EE826A1000D6507 /* IMSearch */ = {
+			isa = PBXGroup;
+			children = (
+				2B9CBC741EE826A1000D6507 /* IMQuickSearch.h */,
+				2B9CBC751EE826A1000D6507 /* IMQuickSearch.m */,
+				2B9CBC761EE826A1000D6507 /* IMQuickSearchFilter.h */,
+				2B9CBC771EE826A1000D6507 /* IMQuickSearchFilter.m */,
+			);
+			path = IMSearch;
+			sourceTree = "<group>";
+		};
+		2B9CBC831EE842FD000D6507 /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				2B9CBC841EE842FD000D6507 /* Controller */,
+				2B9CBC851EE842FD000D6507 /* Model */,
+				2B9CBC861EE842FD000D6507 /* View */,
+			);
+			path = Good;
+			sourceTree = "<group>";
+		};
+		2B9CBC841EE842FD000D6507 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B9CBC871EE8432E000D6507 /* ATNGoodDetailController.h */,
+				2B9CBC881EE8432E000D6507 /* ATNGoodDetailController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B9CBC851EE842FD000D6507 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B9CBC861EE842FD000D6507 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BEEF3131EF56D5500395168 /* ATNGoodCell.h */,
+				2BEEF3141EF56D5500395168 /* ATNGoodCell.m */,
+				2BEEF3151EF56D5500395168 /* ATNGoodCell.xib */,
+				2B9CBC8A1EE843A4000D6507 /* GoodDetail.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C16E2392025E922D5BAD8BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF9B6951BC028149EF368AEA /* Pods-ATNShopping.debug.xcconfig */,
+				4DD9E07907EC1E6BC930CCF6 /* Pods-ATNShopping.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B30FE121EE18FB5003E9FE3 /* ATNShopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B30FE401EE18FB5003E9FE3 /* Build configuration list for PBXNativeTarget "ATNShopping" */;
+			buildPhases = (
+				8223DDC9541D0FE3ECD7E389 /* [CP] Check Pods Manifest.lock */,
+				2B30FE0F1EE18FB5003E9FE3 /* Sources */,
+				2B30FE101EE18FB5003E9FE3 /* Frameworks */,
+				2B30FE111EE18FB5003E9FE3 /* Resources */,
+				9715C8C5AF9940EDA6AFE2CF /* [CP] Embed Pods Frameworks */,
+				42F011B2FE8F25403A94C20D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATNShopping;
+			productName = ATNShopping;
+			productReference = 2B30FE131EE18FB5003E9FE3 /* ATNShopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B30FE2B1EE18FB5003E9FE3 /* ATNShoppingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B30FE431EE18FB5003E9FE3 /* Build configuration list for PBXNativeTarget "ATNShoppingTests" */;
+			buildPhases = (
+				2B30FE281EE18FB5003E9FE3 /* Sources */,
+				2B30FE291EE18FB5003E9FE3 /* Frameworks */,
+				2B30FE2A1EE18FB5003E9FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B30FE2E1EE18FB5003E9FE3 /* PBXTargetDependency */,
+			);
+			name = ATNShoppingTests;
+			productName = ATNShoppingTests;
+			productReference = 2B30FE2C1EE18FB5003E9FE3 /* ATNShoppingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B30FE361EE18FB5003E9FE3 /* ATNShoppingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B30FE461EE18FB5003E9FE3 /* Build configuration list for PBXNativeTarget "ATNShoppingUITests" */;
+			buildPhases = (
+				2B30FE331EE18FB5003E9FE3 /* Sources */,
+				2B30FE341EE18FB5003E9FE3 /* Frameworks */,
+				2B30FE351EE18FB5003E9FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B30FE391EE18FB5003E9FE3 /* PBXTargetDependency */,
+			);
+			name = ATNShoppingUITests;
+			productName = ATNShoppingUITests;
+			productReference = 2B30FE371EE18FB5003E9FE3 /* ATNShoppingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B30FE0B1EE18FB5003E9FE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "于洪志";
+				TargetAttributes = {
+					2B30FE121EE18FB5003E9FE3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DSFM5TP723;
+						ProvisioningStyle = Automatic;
+					};
+					2B30FE2B1EE18FB5003E9FE3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DSFM5TP723;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B30FE121EE18FB5003E9FE3;
+					};
+					2B30FE361EE18FB5003E9FE3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DSFM5TP723;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B30FE121EE18FB5003E9FE3;
+					};
+				};
+			};
+			buildConfigurationList = 2B30FE0E1EE18FB5003E9FE3 /* Build configuration list for PBXProject "ATNShopping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B30FE0A1EE18FB5003E9FE3;
+			productRefGroup = 2B30FE141EE18FB5003E9FE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B30FE121EE18FB5003E9FE3 /* ATNShopping */,
+				2B30FE2B1EE18FB5003E9FE3 /* ATNShoppingTests */,
+				2B30FE361EE18FB5003E9FE3 /* ATNShoppingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B30FE111EE18FB5003E9FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B30FE261EE18FB5003E9FE3 /* LaunchScreen.storyboard in Resources */,
+				2B9CBC321EE7C2F0000D6507 /* currentUser.plist in Resources */,
+				2BEEF31C1EF572B500395168 /* upload.storyboard in Resources */,
+				2B9AD2BA1EE8F92B00D8BF55 /* Register.storyboard in Resources */,
+				2BDB92261EF11B7000AF7B63 /* shoppingCart.storyboard in Resources */,
+				2B30FE231EE18FB5003E9FE3 /* Assets.xcassets in Resources */,
+				2B9CBC2D1EE77FC2000D6507 /* ATNUserCell.xib in Resources */,
+				2B9CBC341EE7E075000D6507 /* IMG_2407.JPG in Resources */,
+				2B9CBC6D1EE81DFB000D6507 /* PYSearch.bundle in Resources */,
+				2BBD28881EF62EF0007E47BA /* goodModel.plist in Resources */,
+				2B9AD2D01EE9904A00D8BF55 /* GoodList.storyboard in Resources */,
+				2B30FE681EE19091003E9FE3 /* ATNCycleViewCell.xib in Resources */,
+				2B30FE211EE18FB5003E9FE3 /* Main.storyboard in Resources */,
+				2B30FE661EE19091003E9FE3 /* ATNCycleView.xib in Resources */,
+				2BEEF3171EF56D5500395168 /* ATNGoodCell.xib in Resources */,
+				2B9CBC821EE82E4B000D6507 /* GoodList.plist in Resources */,
+				2B9CBC8B1EE843A4000D6507 /* GoodDetail.storyboard in Resources */,
+				2B9AD2B51EE8F75200D8BF55 /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30FE2A1EE18FB5003E9FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30FE351EE18FB5003E9FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42F011B2FE8F25403A94C20D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATNShopping/Pods-ATNShopping-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8223DDC9541D0FE3ECD7E389 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9715C8C5AF9940EDA6AFE2CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATNShopping/Pods-ATNShopping-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B30FE0F1EE18FB5003E9FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEEF3161EF56D5500395168 /* ATNGoodCell.m in Sources */,
+				2B3CD22B1EE2FEF800410215 /* ATNUser.m in Sources */,
+				2B9CBC701EE81DFB000D6507 /* PYSearchViewController.m in Sources */,
+				2B30FE671EE19091003E9FE3 /* ATNCycleViewCell.m in Sources */,
+				2B9CBC6F1EE81DFB000D6507 /* PYSearchSuggestionViewController.m in Sources */,
+				2B9AD2CE1EE9903600D8BF55 /* ATNUploadListController.m in Sources */,
+				2B9CBC301EE78C7F000D6507 /* ATNUserController.m in Sources */,
+				2B9CBC791EE826A1000D6507 /* IMQuickSearchFilter.m in Sources */,
+				2B9CBC781EE826A1000D6507 /* IMQuickSearch.m in Sources */,
+				2B9CBC721EE81DFB000D6507 /* UIView+PYSearchExtension.m in Sources */,
+				2B30FE1E1EE18FB5003E9FE3 /* ViewController.m in Sources */,
+				2B9CBC891EE8432E000D6507 /* ATNGoodDetailController.m in Sources */,
+				2B9AD2B81EE8F87B00D8BF55 /* RegisterController.m in Sources */,
+				2B9CBC6E1EE81DFB000D6507 /* PYSearchConst.m in Sources */,
+				2B30FE1B1EE18FB5003E9FE3 /* AppDelegate.m in Sources */,
+				2B3CD2221EE229C200410215 /* ATNHomeConreoller.m in Sources */,
+				2B9AD2D31EE99C9800D8BF55 /* ATNShoppingCartController.m in Sources */,
+				2BEEF31A1EF5729300395168 /* ATNUpoadViewController.m in Sources */,
+				2B9AD2B41EE8F75200D8BF55 /* ATNVLoginController.m in Sources */,
+				2B9CBC6C1EE81DFB000D6507 /* NSBundle+PYSearchExtension.m in Sources */,
+				2B9AD2C71EE96DEA00D8BF55 /* ATNTabBarController.m in Sources */,
+				2B3CD2251EE2FE6B00410215 /* ATNGoodModel.m in Sources */,
+				2B3CD2281EE2FEE100410215 /* ATNComment.m in Sources */,
+				2B9CBC711EE81DFB000D6507 /* UIColor+PYSearchExtension.m in Sources */,
+				2B30FE181EE18FB5003E9FE3 /* main.m in Sources */,
+				2B9CBC2C1EE77FC2000D6507 /* ATNUserCell.m in Sources */,
+				2B30FE651EE19091003E9FE3 /* ATNCycleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30FE281EE18FB5003E9FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B30FE311EE18FB5003E9FE3 /* ATNShoppingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B30FE331EE18FB5003E9FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B30FE3C1EE18FB5003E9FE3 /* ATNShoppingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B30FE2E1EE18FB5003E9FE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B30FE121EE18FB5003E9FE3 /* ATNShopping */;
+			targetProxy = 2B30FE2D1EE18FB5003E9FE3 /* PBXContainerItemProxy */;
+		};
+		2B30FE391EE18FB5003E9FE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B30FE121EE18FB5003E9FE3 /* ATNShopping */;
+			targetProxy = 2B30FE381EE18FB5003E9FE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B30FE1F1EE18FB5003E9FE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B30FE201EE18FB5003E9FE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B30FE241EE18FB5003E9FE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B30FE251EE18FB5003E9FE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B30FE3E1EE18FB5003E9FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B30FE3F1EE18FB5003E9FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B30FE411EE18FB5003E9FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9B6951BC028149EF368AEA /* Pods-ATNShopping.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DSFM5TP723;
+				INFOPLIST_FILE = ATNShopping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atonine.ATNShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B30FE421EE18FB5003E9FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD9E07907EC1E6BC930CCF6 /* Pods-ATNShopping.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DSFM5TP723;
+				INFOPLIST_FILE = ATNShopping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atonine.ATNShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B30FE441EE18FB5003E9FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DSFM5TP723;
+				INFOPLIST_FILE = ATNShoppingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atonine.ATNShoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATNShopping.app/ATNShopping";
+			};
+			name = Debug;
+		};
+		2B30FE451EE18FB5003E9FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DSFM5TP723;
+				INFOPLIST_FILE = ATNShoppingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atonine.ATNShoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATNShopping.app/ATNShopping";
+			};
+			name = Release;
+		};
+		2B30FE471EE18FB5003E9FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DSFM5TP723;
+				INFOPLIST_FILE = ATNShoppingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atonine.ATNShoppingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ATNShopping;
+			};
+			name = Debug;
+		};
+		2B30FE481EE18FB5003E9FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DSFM5TP723;
+				INFOPLIST_FILE = ATNShoppingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atonine.ATNShoppingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ATNShopping;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B30FE0E1EE18FB5003E9FE3 /* Build configuration list for PBXProject "ATNShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B30FE3E1EE18FB5003E9FE3 /* Debug */,
+				2B30FE3F1EE18FB5003E9FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B30FE401EE18FB5003E9FE3 /* Build configuration list for PBXNativeTarget "ATNShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B30FE411EE18FB5003E9FE3 /* Debug */,
+				2B30FE421EE18FB5003E9FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B30FE431EE18FB5003E9FE3 /* Build configuration list for PBXNativeTarget "ATNShoppingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B30FE441EE18FB5003E9FE3 /* Debug */,
+				2B30FE451EE18FB5003E9FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B30FE461EE18FB5003E9FE3 /* Build configuration list for PBXNativeTarget "ATNShoppingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B30FE471EE18FB5003E9FE3 /* Debug */,
+				2B30FE481EE18FB5003E9FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B30FE0B1EE18FB5003E9FE3 /* Project object */;
+}

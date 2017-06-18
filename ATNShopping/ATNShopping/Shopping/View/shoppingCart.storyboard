@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Shopping Cart Controller-->
+        <scene sceneID="Qn6-aF-7ma">
+            <objects>
+                <viewController storyboardIdentifier="cart" id="iI7-CC-cUx" customClass="ATNShoppingCartController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NPU-jZ-rHb"/>
+                        <viewControllerLayoutGuide type="bottom" id="TJv-XZ-VDO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YKQ-Zl-PbT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IMG-hs-BVu">
+                                <rect key="frame" x="0.0" y="603" width="375" height="64"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="价格：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyV-mc-u0y">
+                                        <rect key="frame" x="5" y="22" width="52" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="199" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pfi-na-Qxr">
+                                        <rect key="frame" x="62" y="22" width="29" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yB-TX-kMq">
+                                        <rect key="frame" x="309" y="17" width="31" height="30"/>
+                                        <state key="normal" title="结算">
+                                            <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="yyV-mc-u0y" firstAttribute="baseline" secondItem="Pfi-na-Qxr" secondAttribute="baseline" id="0Dd-T7-5xM"/>
+                                    <constraint firstItem="yyV-mc-u0y" firstAttribute="centerY" secondItem="IMG-hs-BVu" secondAttribute="centerY" id="JCz-zk-BU0"/>
+                                    <constraint firstAttribute="trailing" secondItem="9yB-TX-kMq" secondAttribute="trailing" constant="35" id="PfV-h8-nB0"/>
+                                    <constraint firstItem="9yB-TX-kMq" firstAttribute="top" secondItem="IMG-hs-BVu" secondAttribute="top" constant="17" id="ZN2-45-TLJ"/>
+                                    <constraint firstItem="yyV-mc-u0y" firstAttribute="leading" secondItem="IMG-hs-BVu" secondAttribute="leading" constant="5" id="kvP-sn-8ue"/>
+                                    <constraint firstItem="Pfi-na-Qxr" firstAttribute="centerY" secondItem="9yB-TX-kMq" secondAttribute="centerY" id="rFm-NA-is6"/>
+                                    <constraint firstItem="Pfi-na-Qxr" firstAttribute="leading" secondItem="yyV-mc-u0y" secondAttribute="trailing" constant="5" id="yv4-fY-8Ku"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xRQ-qU-nTM">
+                                <rect key="frame" x="24" y="20" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="返回">
+                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelPressed:" destination="iI7-CC-cUx" eventType="touchUpInside" id="i1k-YU-ds8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bel-hk-c5P">
+                                <rect key="frame" x="278" y="20" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <state key="normal" title="编辑">
+                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="editGoodList:" destination="iI7-CC-cUx" eventType="touchUpInside" id="7ud-X3-N3H"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Rwf-JC-ikq">
+                                <rect key="frame" x="0.0" y="64" width="375" height="539"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="iI7-CC-cUx" id="ToX-It-ioN"/>
+                                    <outlet property="delegate" destination="iI7-CC-cUx" id="ief-6c-5Dp"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IMG-hs-BVu" firstAttribute="top" secondItem="Rwf-JC-ikq" secondAttribute="bottom" id="45N-bl-Xgc"/>
+                            <constraint firstItem="Rwf-JC-ikq" firstAttribute="leading" secondItem="YKQ-Zl-PbT" secondAttribute="leading" id="7Kf-Ao-Hp4"/>
+                            <constraint firstItem="IMG-hs-BVu" firstAttribute="bottom" secondItem="TJv-XZ-VDO" secondAttribute="top" id="7TZ-Fb-Ssd"/>
+                            <constraint firstItem="Rwf-JC-ikq" firstAttribute="top" secondItem="YKQ-Zl-PbT" secondAttribute="top" constant="64" id="B4K-ff-9Fq"/>
+                            <constraint firstItem="Rwf-JC-ikq" firstAttribute="leading" secondItem="IMG-hs-BVu" secondAttribute="leading" id="Gzi-Jo-Mye"/>
+                            <constraint firstAttribute="trailing" secondItem="Rwf-JC-ikq" secondAttribute="trailing" id="WgS-4g-kpL"/>
+                            <constraint firstItem="Rwf-JC-ikq" firstAttribute="trailing" secondItem="IMG-hs-BVu" secondAttribute="trailing" id="hMn-Do-NsR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cartTableView" destination="Rwf-JC-ikq" id="6vM-lJ-e58"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MpO-Va-2ng" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168.80000000000001" y="115.59220389805098"/>
+        </scene>
+    </scenes>
+</document>
